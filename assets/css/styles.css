@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800|Patua+one:100,200,300,400,500,600,700');
+
+/*----------------------------------------------------------------------heading */
+
+/* -------------------------------------------------------------------- Golf Quote */
+
+.golf-quote{
+    font-size: 50px;
+    padding-left: 30px;
+    padding-top: 40px;
+    color: #fafafa;
+    background: url(/assets/imgs/background.jpg);
+    background-size: cover;
+    min-height: 550px;
+}
+
+.golf-quote p{
+    font-size: 50px;
+    /*padding-left: 30px;
+    padding-top: 40px;*/
+    color: #fafafa;
+}
+
+.golf-ball{
+    font-size: 50px;
+    padding-right: 10px;
+    color: #fafafa;
+}
+
+/*.arrow-style{
+    position: relative;
+    top: 150px;
+    left: 300px;
+    min-width: 50px;
+}*/
+
+/* -------------------------------------------------------------------- Nav Bar*/
+
+.navbar{
+    min-height: 90px;
+    background-color: #767679;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #fafafa;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.navbar-brand{
+    font-size: 36px;
+}
+
+.navbar-default{
+    border: none;
+}
+
+.navbar-default .navbar-brand{
+    color: #fafafa;
+}
+
+/* -------------------------------------------------------------------- footer*/
+
+.footer-bg-color{
+    background-color: #767679;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+/* -------------------------------------------------------------------- Social Links*/
+
+
+.icons-style{
+    font-size: 40px;
+}
+
+.icons-style i{
+    padding-right: 20px;
+}
+
