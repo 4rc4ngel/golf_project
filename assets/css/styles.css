@@ -2,6 +2,17 @@
 
 /*----------------------------------------------------------------------heading */
 
+/*---------------------------------------------------------------------- Global */
+
+.uppercase{
+    text-transform: Uppercase;
+}
+
+.para-image{
+    float: left;
+    padding-right: 30px;
+}
+
 /* -------------------------------------------------------------------- Golf Quote */
 
 .golf-quote{
@@ -69,13 +80,21 @@
 
 footer{
     margin-top: 30px;
+    padding: 30px;
+}
+
+.footer-text{
+    padding-top: 50px;
+    color: #fafafa;
 }
 
 /* -------------------------------------------------------------------- Social Links*/
 
 
 .icons-style{
+    padding-top: 20px;
     font-size: 40px;
+    text-align: right;
 }
 
 .icons-style i{
