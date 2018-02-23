@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="../assets/css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
     <title></title>
 </head>
 <body>
@@ -29,9 +29,73 @@
                 <a href="#todays-winner"><span class="down-to-winner glyphicon glyphicon-chevron-down"></span></a>
             </p>
         </div>
-        <article class="container">
+        <form class="container formStyle" >
+            <div class="row">
+                
+                <div class="form-group col-xs-6">
+                    <label for="firstName">First Name</label>
+                    <input class="form-control" type="text" name="name" placeholder="first name" required />
+                </div>
+                <div class="form-group col-xs-6">
+                    <label for="secondName">Surname</label>
+                    <input class="form-control" type="text" name="secondName" placeholder="surname" required />
+                </div>
             
-        </article>
+            </div> 
+                <div class="form-group">
+                    <label for="emailAddress">Email</label>
+                    <input class="form-control" type="email" name="email" placeholder="your email address" required></input>
+                </div>
+                <div class="form-group">
+                    <label for="homeCourse">Your home course</label>
+                    <input class="form-control" type="text" name="homeCourse" placeholder="where do you play?"></input>
+                </div>
+                <div class="form-group">
+                    <label for="handicap">Your Handicap</label>
+                    <select class="form-control" id="handicap">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                      <option>13</option>
+                      <option>14</option>
+                      <option>15</option>
+                      <option>16</option>
+                      <option>17</option>
+                      <option>18</option>
+                      <option>19</option>
+                      <option>20</option>
+                      <option>21</option>
+                      <option>22</option>
+                      <option>23</option>
+                      <option>24</option>
+                      <option>25</option>
+                      <option>26</option>
+                      <option>27</option>
+                      <option>28</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+                
+                <div class="row">    
+                    <div class="form-group col-xs-6">
+                        <label for="scoreCard">Upload your Scorecard</label>
+                        <input type="file" id="scoreCard" />
+                        <p class="help-block">File types:- PDf, JPG, PNG</p>
+                    </div>
+                </div>
+        </form>
         
     </section>
     <footer class="footer-bg-color">
